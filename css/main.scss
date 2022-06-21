@@ -1,38 +1,41 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
-p, h1, h2{
+
+p,
+h1,
+h2 {
     padding: 0;
     margin: 0;
 }
- 
+
 //          header страницы
-.top{
+.top {
     height: 800px;
     width: 100%;
-    background: url(/images/First-image.jpg)  no-repeat center;
-    background-size:cover;
+    background: url(/images/First-image.jpg) no-repeat center;
+    background-size: cover;
     text-align: center;
     overflow: hidden;
     color: #FFf;
-    h1{
+    h1 {
         font-size: 3.5em;
         font-weight: normal;
         text-shadow: 2px 2px 5px rgb(10, 10, 10);
         margin-top: 15%;
     }
-    h2{
+    h2 {
         font-size: 2em;
         font-weight: normal;
         text-shadow: 2px 2px 5px rgb(10, 10, 10);
         line-height: 0;
     }
-    p{
+    p {
         margin-top: 18%;
-        a{
+        a {
             padding: 25px 80px;
             background: #D9D9D9;
             color: rgb(83, 62, 26);
@@ -40,16 +43,15 @@ p, h1, h2{
             transition: 0.7s;
             box-shadow: 2px 2px 5px rgb(10, 10, 10);
         }
-        a:hover{
+        a:hover {
             background: rgb(83, 62, 26);
             color: #D9D9D9;
         }
     }
 }
 
-
 // menu 
-.main-menu{
+.main-menu {
     width: 100%;
     position: fixed;
     padding: 15px 0;
@@ -57,56 +59,60 @@ p, h1, h2{
     box-shadow: 0 0 5px rgb(10, 10, 10);
     z-index: 1;
 }
-.menu-link{
+
+.menu-link {
     width: 450px;
     margin: 0 auto;
     padding: 0;
     list-style: none;
-    li{
+    li {
         width: 90px;
         float: left;
         text-align: center;
         padding: 10px 0;
-        a{
+        a {
             text-decoration: none;
             color: rgb(38, 38, 38);
-            font-size: 1.2em;   
+            font-size: 1.2em;
         }
-        a:hover{
+        a:hover {
             text-decoration: underline;
         }
     }
 }
-.menu-visible{
+
+.menu-visible {
     display: none;
 }
 
-
-
 // first section, offer
-.center-offer{
+.center-offer {
     width: 92%;
     min-width: 120px;
     margin: 0 auto;
     padding: 3% 0;
 }
-.offer{
+
+.offer {
     width: 100%;
     padding-bottom: 5%;
     background-color: rgb(245, 245, 245);
     overflow: auto;
     color: rgb(38, 38, 38);
 }
-.title-offer{
+
+.title-offer {
     text-align: center;
     font-size: 2.5em;
 }
-.discription-offer{
+
+.discription-offer {
     text-align: center;
     line-height: 5px;
     margin-bottom: 5%;
 }
-.box-offer{
+
+.box-offer {
     width: 18%;
     height: 390px;
     float: left;
@@ -114,102 +120,113 @@ p, h1, h2{
     padding: 2.5%;
     background: rgb(250, 250, 250);
     border: 1px solid rgb(220, 220, 220);
-    ul{
+    ul {
         height: 260px;
         margin: 10px 0;
         padding: 0;
         list-style: none;
         font-size: 0.9em;
-        li{
+        li {
             padding: 3px 0;
         }
     }
 }
-.box-offer:hover{
+
+.box-offer:hover {
     box-shadow: 0 0 10px rgb(200, 200, 200);
 }
-.box-offer:last-child{
+
+.box-offer:last-child {
     margin-right: 0;
 }
-.name-offer{
+
+.name-offer {
     margin-bottom: 6%;
     text-align: center;
     font-size: 1.2em;
     font-weight: 400;
 }
-.prise-offer{
+
+.prise-offer {
     text-align: center;
     font-size: 2em;
     font-weight: bold;
     padding-top: 5%;
 }
-.box-vip-offer{
+
+.box-vip-offer {
     background-color: rgb(83, 62, 26);
-    border: 1px soled rgb(220, 220, 220);
+    border: 1px solid rgb(220, 220, 220);
     color: rgb(245, 245, 245);
 }
-.box-vip-offer:hover{
+
+.box-vip-offer:hover {
     box-shadow: 0 0 10px rgb(93, 72, 36);
 }
 
 //section diet
-.diet{
+.diet {
     width: 100%;
     padding-bottom: 5%;
     background-image: url(/images/Second-image.jpg);
     background-size: cover;
     overflow: auto;
-    h2{
+    h2 {
         color: rgb(83, 62, 26);
         margin-bottom: 15px;
         font-weight: normal;
     }
-    .title-offer, .discription-offer{
+    .title-offer,
+    .discription-offer {
         color: rgb(255, 255, 255);
         text-shadow: 0 0 3px rgb(10, 10, 10);
     }
 }
-.personal-diet{
+
+.personal-diet {
     width: 31%;
     float: left;
     margin-left: 1.5%;
     margin-right: 2%;
     padding: 2%;
     background: rgb(255, 255, 255);
-    p{
+    p {
         margin-bottom: 10px;
     }
 }
-.more-diet{
+
+.more-diet {
     width: 56%;
     float: left;
     padding: 2%;
-    background: rgb(255, 255, 255) ;
-    h3{
+    background: rgb(255, 255, 255);
+    h3 {
         color: rgb(93, 72, 36);
     }
 }
-.title-diet{
+
+.title-diet {
     margin-top: 5%;
 }
 
 //section contact
-.contact{
+.contact {
     width: 100%;
     padding-bottom: 2%;
     background: rgb(245, 245, 245);
     overflow: auto;
 }
-.window-form{
+
+.window-form {
     width: 97.7%;
     padding: 1%;
     background: rgb(250, 250, 250);
-    border: 1px soled rgb(200, 200, 200);
-    h3{
+    border: 1px solid rgb(200, 200, 200);
+    h3 {
         margin-bottom: 15px;
         font-size: 1.2em;
     }
-    input{
+    input {
         width: 47%;
         padding: 1%;
         margin-right: 1%;
@@ -217,14 +234,14 @@ p, h1, h2{
         border: 1px solid rgb(220, 220, 220);
         font-size: 1em;
     }
-    input:nth-of-type(2n){
+    input:nth-of-type(2n) {
         margin-right: 0;
     }
-    input:focus{
+    input:focus {
         outline: none;
         border: 1px solid rgb(219, 192, 146);
     }
-    textarea{
+    textarea {
         width: 97.5%;
         height: 130px;
         padding: 1%;
@@ -233,72 +250,91 @@ p, h1, h2{
         resize: none;
         font-family: 'Poppins', sans-serif;
     }
-    textarea:focus{
+    textarea:focus {
         outline: none;
         border: 1px solid rgb(219, 192, 146);
     }
-    .send_form{
+    .send_form {
         margin-top: 1%;
         padding: 15px 30px;
         background: rgb(83, 62, 26);
         border: 1px solid rgb(83, 62, 26);
         color: rgb(245, 245, 245);
         cursor: pointer;
-        transition: background .5s border .5s;
+        transition: .5s;
     }
-    .send_form:hover{
+    .send_form:hover {
         background: rgb(56, 40, 14);
         border: 1px solid rgb(56, 40, 14);
     }
 }
 
 //footer
-footer{
+footer {
     padding: 1% 0;
     background: rgb(56, 40, 14);
     color: rgb(142, 111, 61);
     text-align: center;
-    font-style: .8em;
+    font-size: 0.8em;
 }
 
-@media screen and (max-width: 1050px){
-    .box-offer{
+@media screen and (max-width: 1050px) {
+    .box-offer {
         width: 42%;
         height: auto;
         margin-bottom: 2.3%;
         margin-right: 0;
         margin-left: 2%;
     }
+    .window-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            input {
+                margin-right: 0;
+                width: 70%;
+            }
+            textarea {
+                width: 70%;
+            }
+        }
+    }
 }
-@media screen and (max-width: 768px){
-    .top{
+
+@media screen and (max-width: 768px) {
+    .top {
         height: 800px;
-        h1{
+        h1 {
             font-size: 2.5em;
             margin-top: 25%;
         }
-        h2{
+        h2 {
             font-size: 1.5em;
             line-height: 30px;
         }
-        p{
-            a{
+        p {
+            a {
                 padding: 20px 60px;
             }
         }
     }
-    .main-menu{
+    .main-menu {
         top: -250px;
         padding: 0;
-        .menu-link{
+        .menu-link {
             width: 100%;
         }
-        li{
+        li {
             width: 100%;
             float: none;
             padding: 10px 0;
         }
-        .menu-visible{
+        .menu-visible {
             display: block;
             padding: 15px;
             padding: 30px 10px;
@@ -308,26 +344,26 @@ footer{
             cursor: pointer;
         }
     }
-    .title-offer{
+    .title-offer {
         margin: 5% 0;
         line-height: 45px;
     }
-    .discription-offer{
+    .discription-offer {
         line-height: 25px;
-        
     }
-    .box-offer{
+    .box-offer {
         width: 93%;
         height: auto;
         float: none;
         margin-right: 0;
         margin-bottom: 5%;
         text-align: center;
-        ul{
+        ul {
             height: auto;
         }
     }
-    .more-diet, .personal-diet{
+    .more-diet,
+    .personal-diet {
         width: 90%;
         float: none;
         margin-right: 0;
@@ -335,29 +371,30 @@ footer{
         margin: 3%;
         text-align: center;
     }
-    .window-form{
-        h3{
+    .window-form {
+        h3 {
             text-align: center;
         }
-        input{
+        input {
             width: 93%;
             padding: 3%;
             margin-right: 0;
             margin-bottom: 3%;
         }
-        textarea{
+        textarea {
             width: 93%;
             padding: 3%;
         }
     }
-    .send_form{
+    .send_form {
         margin-top: 3%;
     }
-    footer{
+    footer {
         padding: 3% 0;
     }
 }
-.error{
+
+.error {
     margin-top: 10px;
     padding: 15px 10px;
     border: 1px solid rgb(255, 193, 193);
